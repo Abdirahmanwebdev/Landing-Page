@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AF Resto</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- ScrollReveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+
+<!-- NAV -->
+<header>
+<div class="container nav">
+    <h2 class="logo">AF RESTO</h2>
+
+    <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+
+    <ul class="nav-list">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#booking">Booking</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
+</header>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+    <h1>Welcome to AF Resto</h1>
+    <p>Best Food Experience in Bosaso</p>
+    <a href="#booking" class="btn">Book Now</a>
+</section>
+
+<!-- MENU -->
+<!-- <section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <div class="cards">
+        <div class="card">🍔 Burger</div>
+        <div class="card">🍕 Pizza</div>
+        <div class="card">🍝 Pasta</div>
+    </div>
+</section> -->
+<section id="menu" class="section">
+<h2>Our Menu</h2>
+<div class="cards">
+
+    <div class="card">
+        <img src="images/burger.jpg" alt="Burger">
+        <div class="card-content">
+            <h3>Burger</h3>
+            <p>Juicy & delicious</p>
+            <span class="price">$5</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/pizza.jpg" alt="Pizza">
+        <div class="card-content">
+            <h3>Pizza</h3>
+            <p>Cheesy & hot</p>
+            <span class="price">$8</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/pasta.jpg" alt="Pasta">
+        <div class="card-content">
+            <h3>Pasta</h3>
+            <p>Creamy taste</p>
+            <span class="price">$6</span>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- BOOKING -->
+<section id="booking" class="section dark">
+    <h2>Book a Table</h2>
+
+    <form class="form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <input type="date" required>
+        <input type="time" required>
+        <input type="number" placeholder="Guests" required>
+        <button type="submit">Reserve</button>
+    </form>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+
+    <form id="contact-form" class="form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p>📞 +252 702073301</p>
+    <p>📍 Bosaso, Somalia</p>
+</section>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/252702073301" class="whatsapp">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 AF Resto | All Rights Reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
